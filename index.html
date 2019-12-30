@@ -18,7 +18,7 @@
 <body>
   <!-- bootstrap recommends wrapper container on navbar -->
   <!-- NAVBAR -->
-  <div class="container">
+  <div class="nav-bar">
     <nav class="navbar navbar-light bg-light">
       <span class="navbar-brand mb-0 h1">Jacob Stanger</span>
       <ul class="nav justify-content-end">
@@ -38,11 +38,11 @@
 
   <!-- MAIN - body of the document -->
   <!-- TODO: how to setup the rows and cols for stacking on mobile layout -->
-  <div class="container col-lg-7 col-md-9 col-sm-12">
+  <div class="container ">
     <!-- About me row -->
     <div class="row">
       <div class="container">
-        <h2>About Me</h2>
+        <span class="h2">About Me 2</span>
       </div>
     </div>
 
@@ -61,10 +61,28 @@
   </div>
   <!-- end of main body -->
 
+  <!-- bootstrap sub-column experiment -->
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-9">
+        Level 1: .col-sm-9
+        <div class="row">
+          <div class="col-8 col-sm-6">
+            Level 2: .col-8 .col-sm-6
+          </div>
+          <div class="col-4 col-sm-6">
+            Level 2: .col-4 .col-sm-6
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- end bootstrap sub-column experiment -->
+
 
   <!-- FOOTER -->
   <footer>
-    footer stuff
+    Copyright stuff 2019
   </footer>
 
 </body>
