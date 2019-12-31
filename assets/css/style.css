@@ -10,6 +10,7 @@ footer {
   padding: 20px 10px;
   text-align: center;
   margin-top: 20px;
+  border-top: 5px solid #4aaaa5;
 }
 
 .container {
@@ -18,6 +19,10 @@ footer {
 
 .navbar {
   margin-bottom: 15px;
+  border-bottom: 3px solid #cccccc;
+  background-color: whitesmoke;
+  padding-top: 0px;
+  padding-bottom: 0px;
 }
 
 .nav-link {
@@ -26,7 +31,12 @@ footer {
 
 .navbar-brand {
   margin-left: 50px;
-  background-color: #00adb5;
-  color: #222831;
-  padding: 15px 15px;f
+  background-color: #4aaaa5;
+  color: whitesmoke;
+  padding: 15px 15px;
 }
+
+#my-name {
+  color: whitesmoke;
+}
+

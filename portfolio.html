@@ -1,12 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Document</title>
-</head>
-<body>
-  <h1>portfolio file</h1>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Portfolio | Bootstrap-Portfolio</title>
+
+    <!-- reset link -->
+    <link rel="stylesheet" href="assets/css/reset.css" />
+    <!-- bootstrap link -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    />
+    <!-- my css style link -->
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+
+  <body>
+    <!-- bootstrap recommends wrapper container on navbar -->
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-light bg-light">
+
+      <span class="navbar-brand mb-0 h1">Jacob Stanger</span>
+
+      <ul class="nav justify-content-end">
+        <li class="nav-item">
+          <a href="index.html" class="nav-link active">About</a>
+        </li>
+        <li class="nav-item">
+          <a href="portfolio.html" class="nav-link">Portfoio</a>
+        </li>
+        <li class="nav-item">
+          <a href="contact.html" class="nav-link">Contact</a>
+        </li>
+      </ul>
+
+    </nav>
+
+
+
+    <!-- MAIN - body of the document -->
+    <!-- TODO: how to setup the rows and cols for stacking on mobile layout -->
+    <div class="container ">
+
+      <!-- About me row -->
+      <div class="row">
+        <div class="container">
+          <span class="h2">Portfoio</span>
+          <hr />
+        </div>
+      </div>
+
+      <!-- pic and p row -->
+      <div class="row">
+        <div class="container col-md-3">
+          <img src="https://via.placeholder.com/150" alt="main-pic" />
+        </div>
+        <div class="container col-md-9">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore veniam, consectetur ratione hic possimus odit non! Ex nulla molestias, eaque consectetur aperiam modi obcaecati minus blanditiis, sed aspernatur similique corporis vitae placeat. Fuga, vitae quam. Officia magni tenetur, facilis exercitationem ratione consectetur soluta voluptas at, voluptate molestias quam eligendi porro sunt hic aut. Maxime eius fugit, veritatis dignissimos itaque iste nihil quibusdam rem expedita assumenda fuga natus sit, quo quam quaerat impedit. Maxime sint autem neque deleniti fugiat delectus et eligendi nobis quod! Rem minima beatae quia ab natus ullam libero modi voluptas laboriosam hic, asperiores a sit odit soluta nulla! Enim nihil quasi expedita voluptate pariatur dolor? Reiciendis, voluptates facilis. Dolorum error neque id! Ad, non iste illum accusantium voluptatibus hic iusto vel, sed alias reprehenderit, molestiae vero explicabo mollitia consequatur? Magni minima et possimus laboriosam quas numquam? Architecto eveniet, natus molestias minima est illum ducimus hic error dignissimos.
+          </p>
+        </div>
+      </div>
+
+    </div>
+    <!-- end of main body -->
+
+
+    <!-- FOOTER -->
+    <footer>
+      Copyright stuff 2019
+    </footer>
+  </body>
 </html>
