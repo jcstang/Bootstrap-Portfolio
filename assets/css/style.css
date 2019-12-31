@@ -40,3 +40,6 @@ footer {
   color: whitesmoke;
 }
 
+#main-img {
+  border: 2px solid red;
+}
