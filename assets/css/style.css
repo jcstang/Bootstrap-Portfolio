@@ -16,7 +16,17 @@ footer {
   background-color: whitesmoke;
 }
 
+.navbar {
+  margin-bottom: 15px;
+}
+
+.nav-link {
+  color: #222831;
+}
+
 .navbar-brand {
   margin-left: 50px;
   background-color: #00adb5;
+  color: #222831;
+  padding: 15px 15px;f
 }
