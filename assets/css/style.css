@@ -1,11 +1,9 @@
-
-
 body {
   background-image: url(../images/light-grey-terrazzo.png);
 }
 
 footer {
-  background-color:#222831;
+  background-color: #222831;
   color: whitesmoke;
   padding: 20px 10px;
   text-align: center;
