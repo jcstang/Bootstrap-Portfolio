@@ -12,7 +12,6 @@ footer {
 }
 
 .container {
-  background-color: #eeeeee;
   background-color: #f2f2f2;
 }
 
@@ -30,8 +29,22 @@ footer {
 }
 
 .navbar .navbar-brand {
-  margin-left: 50px;
+  margin-left: 20%;
   background-color: #4aaaa5;
   color: whitesmoke;
   padding: 15px 15px;
+}
+
+.card {
+  position: relative;
+  width: auto;
+  border: 2px solid rosybrown;
+  margin-bottom: 20px;
+}
+
+.portfolio-title {
+  background-color: #4aaaa5;
+  position: absolute;
+  bottom: 10px;
+  width: 100%;
 }
