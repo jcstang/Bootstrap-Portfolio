@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Contact | Bootstrap-Portfolio</title>
+    <title>Home | Bootstrap-Portfolio</title>
 
     <!-- reset link -->
     <link rel="stylesheet" href="assets/css/reset.css" />
@@ -18,53 +18,70 @@
   </head>
 
   <body>
-    <!-- bootstrap recommends wrapper container on navbar -->
-    <!-- NAVBAR -->
-    <nav class="navbar navbar-light bg-light">
+    <!-- NAVBAR div -->
+    <div class="container-nav" role="navigation">
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <span class="navbar-brand">Jacob Stanger</span>
+        <ul class="nav">
+          <li class="nav-item">
+            <a href="index.html" class="nav-link">About</a>
+          </li>
+          <li class="nav-item">
+            <a href="portfolio.html" class="nav-link">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a href="contact.html" class="nav-link">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
 
-      <span class="navbar-brand mb-0 h1">Jacob Stanger</span>
-
-      <ul class="nav justify-content-end">
-        <li class="nav-item">
-          <a href="index.html" class="nav-link active">About</a>
-        </li>
-        <li class="nav-item">
-          <a href="portfolio.html" class="nav-link">Portfoio</a>
-        </li>
-        <li class="nav-item">
-          <a href="contact.html" class="nav-link">Contact</a>
-        </li>
-      </ul>
-
-    </nav>
-
-
-
-    <!-- MAIN - body of the document -->
-    <!-- TODO: how to setup the rows and cols for stacking on mobile layout -->
-    <div class="container ">
-      <!-- About me row -->
+    <!-- MAIN container - most of the body -->
+    <main class="container main-container ">
+      <!-- ABOUT ME -->
       <div class="row">
-        <div class="container">
-          <span class="h2">Contact</span>
+        <div class="container ">
+          <h2>About Me</h2>
           <hr />
         </div>
       </div>
 
-      <!-- pic and p row -->
+      <!-- IMAGE & WORDS -->
       <div class="row">
-        <div class="container col-md-3">
-          <img src="https://via.placeholder.com/150" alt="main-pic" />
+        <div class="container col-md-4 col-xs-12">
+          <img src="https://via.placeholder.com/200" alt="main-pic" />
         </div>
-        <div class="container col-md-9">
+        <div class="container col-md-8 col-xs-12">
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore veniam, consectetur ratione hic possimus odit non! Ex nulla molestias, eaque consectetur aperiam modi obcaecati minus blanditiis, sed aspernatur similique corporis vitae placeat. Fuga, vitae quam. Officia magni tenetur, facilis exercitationem ratione consectetur soluta voluptas at, voluptate molestias quam eligendi porro sunt hic aut. Maxime eius fugit, veritatis dignissimos itaque iste nihil quibusdam rem expedita assumenda fuga natus sit, quo quam quaerat impedit. Maxime sint autem neque deleniti fugiat delectus et eligendi nobis quod! Rem minima beatae quia ab natus ullam libero modi voluptas laboriosam hic, asperiores a sit odit soluta nulla! Enim nihil quasi expedita voluptate pariatur dolor? Reiciendis, voluptates facilis. Dolorum error neque id! Ad, non iste illum accusantium voluptatibus hic iusto vel, sed alias reprehenderit, molestiae vero explicabo mollitia consequatur? Magni minima et possimus laboriosam quas numquam? Architecto eveniet, natus molestias minima est illum ducimus hic error dignissimos.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae
+            perspiciatis odit nam aperiam nesciunt, tempore deserunt mollitia
+            minima, nemo aliquam ut pariatur eaque rerum ducimus voluptas et
+            quidem ipsa quod asperiores modi repellat maiores placeat, quasi
+            saepe. Similique, quos voluptatum asperiores animi fuga iusto,
+            quidem tempore dolores voluptatibus eius ad culpa eveniet molestiae
+            earum vitae?
+        </div>
+      </div>
+
+      <!-- more words row -->
+      <div class="row">
+        <div class="container col-xs-12">
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ea
+            exercitationem porro cupiditate numquam eveniet sed optio. Suscipit
+            eaque perferendis quo. Illo accusamus perspiciatis quam libero, unde
+            obcaecati neque mollitia assumenda. Possimus, ipsa mollitia. Rerum,
+            sint vel! Voluptate neque pariatur, vel, sunt, itaque atque suscipit
+            corporis quos temporibus facere dolorum expedita sit nemo odit
+            assumenda deserunt eius praesentium minus fugiat maxime voluptatum
+            quam commodi accusamus. Unde iusto voluptates voluptatibus quas.
+            Error repudiandae, recusandae explicabo libero illo voluptatibus
+            quibusdam ratione natus suscipit modi in? Alias excepturi rerum
+            voluptatibus est saepe culpa accusantium?
           </p>
         </div>
       </div>
-    </div>
-    <!-- end of main body -->
-
+    </main>
 
     <!-- FOOTER -->
     <footer>

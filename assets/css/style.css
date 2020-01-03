@@ -3,7 +3,7 @@ body {
 }
 
 footer {
-  background-color: #222831;
+  background-color: #393e46;
   color: whitesmoke;
   padding: 20px 10px;
   text-align: center;
@@ -12,32 +12,26 @@ footer {
 }
 
 .container {
-  background-color: whitesmoke;
+  background-color: #eeeeee;
+  background-color: #f2f2f2;
 }
 
 .navbar {
   margin-bottom: 15px;
   border-bottom: 3px solid #cccccc;
-  background-color: whitesmoke;
+  background-color: #eeeeee;
   padding-top: 0px;
   padding-bottom: 0px;
 }
 
 .nav-link {
   color: #222831;
+  color: whitesmoke;
 }
 
-.navbar-brand {
+.navbar .navbar-brand {
   margin-left: 50px;
   background-color: #4aaaa5;
   color: whitesmoke;
   padding: 15px 15px;
-}
-
-#my-name {
-  color: whitesmoke;
-}
-
-#main-img {
-  border: 2px solid red;
 }
