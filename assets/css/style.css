@@ -11,6 +11,10 @@ footer {
   border-top: 5px solid #4aaaa5;
 }
 
+footer a {
+  color: #262a30;
+}
+
 .container {
   background-color: #f2f2f2;
 }
@@ -42,9 +46,19 @@ footer {
   margin-bottom: 20px;
 }
 
+.fa-egg {
+  float: right;
+}
+
 .portfolio-title {
   background-color: #4aaaa5;
   position: absolute;
   bottom: 10px;
   width: 100%;
 }
+
+.form-container {
+  margin-bottom: 30px;
+  text-decoration: none;
+}
+
